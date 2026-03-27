@@ -9,7 +9,6 @@ from pydantic import BaseModel, Field
 from langchain.agents import create_agent
 from langchain_core.tools import tool
 from langchain_core.messages import HumanMessage
-from langchain_groq import ChatGroq
 from tavily import TavilyClient
 
 tavily = TavilyClient()
